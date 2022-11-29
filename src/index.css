@@ -4,11 +4,20 @@
 *::after,
 *::before{
   box-sizing: border-box;
+  margin: 0;
 }
 
 body{
   background-color: #303A3D;
 }
+
+
+.container{
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
 
 .page-title{
   padding: 5rem;
@@ -63,6 +72,10 @@ body{
   animation-iteration-count: infinite;
 }
 
+.vertical-arrow{
+  font-size: 30pt;
+  padding-right: 40px;
+}
 
 .nav-button{
   padding: 20px;
@@ -75,4 +88,18 @@ body{
 
 a{
   text-decoration: none;
+}
+
+.footer{
+  width: 100%;
+  padding: 1vh;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fill-container{
+  flex: 1 1 auto;
 }
