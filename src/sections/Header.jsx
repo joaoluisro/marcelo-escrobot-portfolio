@@ -54,9 +54,9 @@ const Header = () => {
     <h1>Marcelo Escrobot</h1>
     </div>
     <div className="nav-sections" >
-        <a href="" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(0))}}><ArrowIcon selected={selected[0]}/> About me </a>
-        <a href="" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(1))}}><ArrowIcon selected={selected[1]}/> Projects</a>
-        <a href="" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(2))}}><ArrowIcon selected={selected[2]}/> Contact</a>
+        <a href="#about-me-section" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(0))}}><ArrowIcon selected={selected[0]}/> About me </a>
+        <a href="#projects-section" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(1))}}><ArrowIcon selected={selected[1]}/> Projects</a>
+        <a href="#contact-section" className="nav-button" onMouseEnter={e => {updateSelected(flipSelected(2))}}><ArrowIcon selected={selected[2]}/> Contact</a>
     </div>
     <div className='fill-container'>
     </div>
